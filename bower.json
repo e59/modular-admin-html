@@ -3,24 +3,24 @@
   "version": "1.1.0",
   "devDependencies": {},
   "dependencies": {
-    "animate.css": "~3.4.0",
+    "animate.css": "~3.5.2",
     "bootstrap": "v4.0.0-alpha.5",
-    "font-awesome": "~4.3.0",
-    "jquery": "~2.1.4",
+    "font-awesome": "~4.7.0",
+    "jquery": "~3.1.1",
     "jquery-flot": "~0.8.3",
-    "flot.tooltip": "~0.8.5",
-    "jquery-validation": "~1.14.0",
+    "flot.tooltip": "~0.9.0",
+    "jquery-validation": "~1.16.0",
     "jquery.sparkline": "http://omnipotent.net/jquery.sparkline/2.1.2/jquery.sparkline.js",
-    "jqvmap": "~1.4.0",
-    "metisMenu": "~2.0.3",
+    "jqvmap": "~1.5.1",
+    "metisMenu": "~2.6.1",
     "morrisjs": "~0.5.1",
     "nprogress": "~0.2.0",
-    "quill": "~0.20.1",
-    "responsive-bootstrap-toolkit": "~2.5.0",
+    "quill": "~1.1.7",
+    "responsive-bootstrap-toolkit": "~2.6.3",
     "Sortable": "~1.4.2",
-    "tether": "~1.3.7",
-    "tinycolor": "~1.2.1",
-    "dropzone": "~4.2.0"
+    "tether": "~1.4.0",
+    "tinycolor": "~1.4.1",
+    "dropzone": "~4.3.0"
   },
   "overrides": {
     "bootstrap": {
@@ -73,5 +73,8 @@
     "raphael": {
       "main": "raphael.js"
     }
+  },
+  "resolutions": {
+    "jquery": ">= 2.1.0"
   }
 }
